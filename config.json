@@ -1,0 +1,25 @@
+{
+  "name": "Madeira",
+  "identifier": "com.gilmatsliah.madeira.source",
+  "subtitle": "Unofficial AltStore and SideStore source for Madeira",
+  "description": "Unofficial source tracking IPA releases from willfaust/Madeira. Downloads come directly from the upstream repository.",
+  "iconURL": "https://raw.githubusercontent.com/willfaust/Madeira/main/app/Madeira/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+  "website": "https://github.com/willfaust/Madeira",
+  "tintColor": "7057D9",
+  "apps": [
+    {
+      "name": "Madeira",
+      "bundleIdentifier": "com.willfaust.madeora",
+      "developerName": "Will Faust and contributors",
+      "localizedDescription": "Run Windows PC games on iPhone using FEX, Wine and Metal. Requires iOS 26 or later and JIT. This unofficial source links directly to upstream IPA releases. LiveContainer import does not guarantee runtime compatibility.",
+      "iconURL": "https://raw.githubusercontent.com/willfaust/Madeira/main/app/Madeira/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "7057D9",
+      "minOSVersion": "26.0",
+      "source": {
+        "mode": "releases",
+        "repo": "willfaust/Madeira",
+        "ipaAssetPattern": "(?i)^Madeira-.*\\.ipa$"
+      }
+    }
+  ]
+}

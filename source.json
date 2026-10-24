@@ -1,0 +1,49 @@
+{
+  "name": "Madeira",
+  "identifier": "com.gilmatsliah.madeira.source",
+  "iconURL": "https://raw.githubusercontent.com/willfaust/Madeira/main/app/Madeira/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+  "tintColor": "7057D9",
+  "subtitle": "Unofficial AltStore and SideStore source for Madeira",
+  "description": "Unofficial source tracking IPA releases from willfaust/Madeira. Downloads come directly from the upstream repository.",
+  "website": "https://github.com/willfaust/Madeira",
+  "apps": [
+    {
+      "name": "Madeira",
+      "bundleIdentifier": "com.willfaust.madeora",
+      "developerName": "Will Faust and contributors",
+      "localizedDescription": "Run Windows PC games on iPhone using FEX, Wine and Metal. Requires iOS 26 or later and JIT. This unofficial source links directly to upstream IPA releases. LiveContainer import does not guarantee runtime compatibility.",
+      "iconURL": "https://raw.githubusercontent.com/willfaust/Madeira/main/app/Madeira/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "7057D9",
+      "versions": [
+        {
+          "version": "0.1.3",
+          "date": "2026-10-03",
+          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.3/Madeira-0.1.3.ipa",
+          "size": 145554426,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "0.1.2",
+          "date": "2026-10-03",
+          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.2/Madeira-0.1.2.ipa",
+          "size": 142471753,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "0.1.1",
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.1/Madeira-0.1.1.ipa",
+          "size": 142473173,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "0.1.0",
+          "date": "2026-10-01",
+          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.0/Madeira-0.1.0.ipa",
+          "size": 142433883,
+          "minOSVersion": "26.0"
+        }
+      ]
+    }
+  ]
+}
